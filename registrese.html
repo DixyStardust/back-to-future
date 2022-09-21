@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/79a6c17c45.js" crossorigin="anonymous"></script>
+    <title>Registrese</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    
+</head>
+<body>
+    <header>
+        <nav> 
+            <a class="nav" href="Index.html">Home</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+            <a class="nav" href="registrese.html">Registrese </a>
+        </nav>
+    
+        <p align="center"><U><b><i>Recetas de cocina</i></b></U></p></header>
+<main>
+
+<h2>Formulario de Registro</h2>
+<form class=formulario action="Show_data.html"target="blank">
+
+    <label for="firstnmame">Nombre:</label> <input type="text" name="firstname" placeholder="Ingrese su nombre">
+    <br>
+    <br>
+    <label for="apellido">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su apellido">
+    <br>
+    <br>
+    <label for="Street">Dirección:</label> <input type="text" name="addres" placeholder="Ingrese su dirección">
+    <br>
+    <br>
+    <label for="City">Ciudad:</label> <input type="Text" name="city" value="CABA"></imput>       
+    <br>
+    <br>
+    <label for="zipcode">Codigo Postal:</label> <input type="text" name="zipcode" placeholder="Ingrese su código Postal"></imput>  
+    <br>
+    <br>
+    <label for="Birthday">Fecha de nacimiento:</label>    <input type="date" name="birthday"></input>
+
+    <p>Genero
+        <input type="radio" name="gender" value="Hombre" checked>Hombre</input>
+        <input type="radio" name="gender" value="Mujer">Mujer</input>
+        <input type="radio" name="gender" value="otro">Otro</input>
+    </p>
+
+    <p>Estudios
+        <input type="checkbox" name="Estudios" value="Primarios">Primarios</input>
+        <input type="checkbox" name="Estudios" Value="Secundarios">Secundarios</input>
+        <input type="checkbox" name="Estudios" value="Univeristarios">Univeristarios</input>
+        <input type="checkbox" name="Estudios" value="otro">Otro</input>
+
+    </p>
+
+        <input type="submit" Value="Enviar"></input>
+
+</form>
+<p>Si usted hace click en el boton enviar, la información sera enviada a la página"show_data.html</p>
+</main>
+
+    <footer>
+        <a class="redsoc" href="https://twitter.com/jippieledesma"><i class="fa-brands fa-twitter"></i></a>
+        <a class="redsoc" href="https:https//www.linkedin.com/in/jimenaledesmaarocena"><i class="fa-brands fa-linkedin"></i></a>
+        <p>Derechos reservados @2022</p>
+    </footer>
+</body>
+</html>
