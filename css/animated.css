@@ -1,0 +1,64 @@
+
+#back {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: repeating-linear-gradient(180deg, black, #000099, #66c2ff, #fac3c3, #f7e7b0);
+    background-attachment: scroll;
+    z-index: 0;
+}
+  
+.stars {
+      background-color: rgb(255, 251, 0);
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      animation-iteration-count: infinite;
+}
+  
+.star-1 {
+      margin-top: 15%;
+      margin-left: 60%;
+      animation-name: twinkle-1;
+      animation-duration: 1s;
+}
+  
+.star-2 {
+      margin-top: 25%;
+      margin-left: 25%;
+      animation-name: twinkle-2;
+      animation-duration: 0.9s;
+}
+  
+.star-3 {
+      margin-top: 80%;
+      margin-left: 70%;
+      animation-duration: 1.1s;
+      animation-name: twinkle;
+}
+  
+@keyframes twinkle-1 {
+      50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+      }
+}
+  
+@keyframes twinkle-2 {
+      20% {
+        transform: scale(0.5);
+        opacity: 0.5;
+      }
+}
+  
+@keyframes twinkle {
+      20% {
+        transform: scale(0.5);
+        opacity: 0.5;
+      }
+}
+  
