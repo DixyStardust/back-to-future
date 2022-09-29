@@ -1,6 +1,9 @@
 @import url(animated.css);
+body {
+  background-color: rgb(9, 2, 26); 
+}
 
-body, main, footer {
+footer {
   border: 3px rgb(158, 154, 154) solid;
   width: 100%;
   height: 100%;
@@ -112,14 +115,4 @@ nav li a:hover {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
-}
-
-/* Background colors */
-.color {
-  background-attachment: scroll;
-  background: -webkit-repeating-linear-gradient(180deg, black,rgb(31, 3, 31), rgb(16, 0, 46),  rgb(1, 8, 102), #0000aa , #0172bd , #0cf3c1, #67f862, #eff86f,rgb(250, 213, 112), rgb(255, 176, 216),  rgb(255, 189, 189));
-  background:    -moz-repeating-linear-gradient(180deg, black,rgb(31, 3, 31), rgb(16, 0, 46),  rgb(1, 8, 102), #0000aa , #0172bd , #0cf3c1, #67f862, #eff86f,rgb(250, 213, 112), rgb(255, 176, 216),  rgb(255, 189, 189));
-  background:     -ms-repeating-linear-gradient(180deg, black,rgb(31, 3, 31), rgb(16, 0, 46),  rgb(1, 8, 102), #0000aa , #0172bd , #0cf3c1, #67f862, #eff86f,rgb(250, 213, 112), rgb(255, 176, 216),  rgb(255, 189, 189));
-  background:      -o-repeating-linear-gradient(180deg, black,rgb(31, 3, 31), rgb(16, 0, 46),  rgb(1, 8, 102), #0000aa , #0172bd , #0cf3c1, #67f862, #eff86f,rgb(250, 213, 112), rgb(255, 176, 216),  rgb(255, 189, 189));
-  background:         repeating-linear-gradient(180deg, black,rgb(31, 3, 31), rgb(16, 0, 46),  rgb(1, 8, 102), #0000aa , #0172bd , #0cf3c1, #67f862, #eff86f,rgb(250, 213, 112), rgb(255, 176, 216),  rgb(255, 189, 189));
 }
