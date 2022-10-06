@@ -30,7 +30,53 @@
         <main>
             <div class="contenido-principal"></div>
             <div>
-                
+                <h1>Formulario de Registro</h1>
+<form class=formulario action="Show_data.html"target="blank">
+
+    <label for="firstnmame">Nombre:</label> <input type="text" name="firstname" placeholder="Ingrese su nombre">
+    <br>
+    <br>
+    <label for="apellido">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su apellido">
+    <br>
+    <br>
+    <label for="Street">Mail:</label> <input type="text" name="mail" placeholder="Ingresa tu mail">
+    <br>
+    <br>
+    <label for="Street">Dirección:</label> <input type="text" name="addres" placeholder="Ingrese su dirección">
+    <br>
+    <br>
+    <label for="City">Ciudad:</label> <input type="Text" name="city" value="CABA"></imput>       
+    <br>
+    <br>
+    <label for="zipcode">Codigo Postal:</label> <input type="text" name="zipcode" placeholder="Ingrese su código Postal"></imput>  
+    <br>
+    <br>
+    <label for="Birthday">Fecha de nacimiento:</label>    <input type="date" name="birthday"></input>
+
+    <p>Genero
+        <input type="radio" name="gender" value="Hombre" checked>Hombre</input>
+        <input type="radio" name="gender" value="Mujer">Mujer</input>
+        <input type="radio" name="gender" value="otro">Otro</input>
+    </p>
+
+    <p>Película preferida 
+        <input type="checkbox" name="Película" value="Volver al Futuro I">Volver al Futuro I</input>
+        <input type="checkbox" name="Película" Value="Volver al futuro II">Volver al futuro II</input>
+        <input type="checkbox" name="Película" value="Volver al futuro III">Volver al futuro III</input>
+        
+
+    </p>
+
+        <input type="submit" Value="Enviar"></input>
+
+</form>
+<p>Si usted hace click en el boton enviar, la información sera enviada a la página"show_data.html</p>
+</main>
             </div>   
-</body>
+
+            <div class="chat">
+            
+            <script src="Js/api.js"></script>
+            </div>  
+
 </html>
