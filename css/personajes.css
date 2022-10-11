@@ -34,3 +34,34 @@
     -ms-flex-item-align: auto;
     align-self: auto;
   }
+  .personaje{
+    /* border: 1px solid blue; */
+    display:flex;
+    flex-direction:row;
+    
+  }
+  .nombre_presonaje{
+    /* border: 1px solid red; */
+    padding: 10px;
+  }
+  .nombre_presonaje > h3{
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .img_actor{
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  .text_biografia{
+    text-align: justify;
+    padding: 2rem 1rem 0 1rem;
+  }
+
+  .reparto_actores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+  }
