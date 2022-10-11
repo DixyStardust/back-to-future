@@ -1,0 +1,35 @@
+@import url(style.css);
+
+
+label,input{font-size: 1vw; font-family: sans-serif; color:#000}
+input[type=text],input[type=date],input[type=password]
+input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
+
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    display:inline-block;
+    border:1vw;
+    border: radius 4px;
+    box-sizing:border-box;
+}
+
+input[type=submit]{
+width:100%;
+background-color: #4caf50;
+color:white;
+padding:14px 20px;
+margin:8px 0px;
+border:none;
+border-radius: 4px;
+cursor:pointer;
+
+}
+
+input[type=submit]:hover {background-color: #45a049;}
+input[type=submit]:hover {background-color: #45a049;}
+
+.formulario{border-radius: 5xp;
+background-color: #dddbdb;
+padding:2%;
+margin:1% 20%}
