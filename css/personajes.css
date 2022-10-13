@@ -5,7 +5,7 @@
     font-family: sans-serif;
     font-size: 15px;  
     font-style: double;
-    text-align: center;
+    text-align: justify;
     color:  rgb(255, 166, 1);
     -webkit-order: 0;
     -ms-flex-order: 0;
@@ -64,4 +64,53 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem;
+  }
+  .logo{
+    width: 500px;
+    height: auto;
+    
+    
+  }
+
+.logo_film{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.sinopsis {
+  border:1px rgb(255, 166, 1);
+  padding: 20px;
+  display:flex;
+  flex-direction:column;
+  text-align: left;
+  justify-content: center
+}
+
+.sinopsis button {
+  width: 150px;
+  border: 3px solid #dddbdb;
+  background-color: #dddbdb;
+  border: 2px solid ;
+  border-radius: 15px;
+  padding: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.video{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;}
+.video > iframe{ 
+  width: 560px;
+  height: 315px;
+}
+  
+  .iframe{
+    width: 560px;
+    height: 315px;
+
   }
