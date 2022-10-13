@@ -1,12 +1,5 @@
 @import url(style.css);
 
-/*AUN FALTA
-
-.tablero {
- 
-  }
-*/
-
 .card-body {
     font-weight: bold;
     font-family: sans-serif;
@@ -16,7 +9,7 @@
     margin: 1rem;
     padding: 1rem;
     color: rgb(250, 69, 24);
-  }
+}
 
 .flex-paragraph {
     font-weight: bold;
@@ -27,7 +20,6 @@
     margin: 1rem;
     padding: 1rem;
     color: rgb(236, 146, 10);
-
 }
 
 .invite {
@@ -42,12 +34,21 @@
 }
 
 .future {
-        font-weight: bold;
-        font-family: sans-serif;
-        font-size: 15px;  
-        font-style: double;
+        font-weight: absolute;
+        font-family: 'Lucida Sans', Verdana, sans-serif;
+        font-size: 20px;  
+        font-style: italic;
         text-align: center;
         margin: 1rem;
         padding: 1rem;
         color: rgb(250, 69, 24);
 }  
+
+//*esto no me funciona!! no puedo centrar la imagen...lo hice en el html...xq?.tablero {
+  margin: 1rem;
+  padding: 1rem;
+  justify-items: center;
+  align-items: center;
+ 
+  }
+//*
