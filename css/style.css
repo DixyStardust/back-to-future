@@ -32,7 +32,8 @@ h1 {
   color: rgb(255, 166, 1);
 }
 
-h2 {font-weight: bold;
+h2 {
+  font-weight: bold;
   font-family: sans-serif;
   font-size: 30px;  
   font-style: double;
@@ -40,7 +41,8 @@ h2 {font-weight: bold;
   color: rgb(250, 39, 24);
 }
 
-h3 {font-weight: bold;
+h3 {
+  font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;  
   font-style: double;
