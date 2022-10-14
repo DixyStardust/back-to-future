@@ -1,5 +1,8 @@
 @import url(style.css);
 
+.main_index{
+    margin-top: 3rem;
+}
 .contenido-principal {
   margin: 1rem;
   padding: 1rem;

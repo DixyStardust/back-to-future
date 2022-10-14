@@ -13,28 +13,40 @@
 
 <body>
 
-    <header>
-
+    <header class="header">
         <div id="header-logo">
-            <div id="flex-item">
-                <img class="izquierda" src="icon/cientist_doc_doctor brown_emmett brown_icon.png"
-                    alt="Doctor Emmet Brown">
-                <img class="derecha" src="icon/marty_marty mcfly_mcfly_icon.png" alt="Marty McFly">
-                <h1> Contacto</h1>
-            </div>
+          <div id="flex-item">
+            <img class="izquierda" src="icon/cientist_doc_doctor brown_emmett brown_icon.png" alt="Doctor Emmet Brown">
+            <img class="derecha" src="icon/marty_marty mcfly_mcfly_icon.png" alt="Marty McFly">
+            <h1 class="nombre_seccion">Contacto</h1>
+          </div>
+          <hr>
         </div>
-        <hr>
-        <nav class="header-menubar">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="trilogia.html">Trilogía</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+    
+        <nav class="main-nav">
+          <div id="toggle-menu" class="toggle-menu">
+            <i class="fa-solid fa-bars icon__menu"></i>
+          </div>
+          <ul id="main-menu" class="main-menu">
+            <li class="main-menu__item">
+              <a href="index.html" class="main-menu__link">Inicio</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="trilogia.html" class="main-menu__link">Trilogía</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="personajes.html" class="main-menu__link">Personajes</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="noticias.html" class="main-menu__link">Noticias</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="contacto.html" class="main-menu__link">Contacto</a>
+            </li>
+          </ul>
         </nav>
-    </header>
-    <main>
+      </header>
+    <main class="main_contacto">
         <div class="contenido-principal"></div>
         <div>
             <h2>Formulario de Registro</h2>
@@ -113,6 +125,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <!-------------------------- script  ----------------------------->
+  <script src="js/showMenu.js"></script>
 </body>
 
 </html>

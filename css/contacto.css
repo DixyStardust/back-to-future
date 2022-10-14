@@ -1,5 +1,8 @@
 @import url(style.css);
 
+.main_contacto{
+    margin-top: 3.5rem;
+}
 
 label,input{font-size: 1vw; font-family: sans-serif; color:#000}
 input[type=text],input[type=date],input[type=password]

@@ -1,5 +1,14 @@
 @import url(style.css);
 
+.main_personajes{
+  /* border:1px solid orange; */
+  margin-top: 4rem;
+}
+.main_vaf1{
+  margin-top: 3rem;
+}
+
+
 .flex-paragraphcast {
     font-weight: lighter;
     font-family: sans-serif;

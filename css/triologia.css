@@ -1,1 +1,63 @@
 @import url(style.css);
+.main_trilogia{
+	margin-top: 4rem;
+}
+.flyer_trilogia{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+.flyer{
+	/* border: 1px solid red; */
+	margin:1rem 0.5rem 1.5rem;	
+}
+.flyer_img{
+	/* border: 1px solid white; */
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top:1rem;
+	height: 400px;
+}
+.flyer_img > img{
+	/* border: 1px solid white; */
+	width: 250px;
+	height: auto;
+}
+.flyer_title > h2{
+	margin:0.5rem;
+	font-size: 1.2rem;
+}
+@media screen  and (min-width:768px){
+	
+	.flyer_trilogia{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-evenly;
+	}
+	.flyer_img{
+		/* border: 1px solid white; */
+		height: 300px;
+		margin-top: 4.5rem;	
+	}
+	.flyer_img > img{
+		/* border: 1px solid white; */
+		width: 200px;
+		height: auto;
+	}
+	.flyer_title > h2{
+		font-size: 0.75rem;
+	}
+}
+@media screen and (min-width: 1024px){
+	.flyer_img{
+		/* border: 1px solid white; */
+		height: 400px;
+		margin-top: 3.5rem;	
+	}
+	.flyer_img > img{
+		/* border: 1px solid white; */
+		width: 300px;
+		height: auto;
+	}
+}
