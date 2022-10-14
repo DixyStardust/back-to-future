@@ -1,5 +1,25 @@
 @import url(style.css);
 
+.contenido-principal {
+  margin: 1rem;
+  padding: 1rem;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.music {
+    margin: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 .card-body {
     font-weight: bold;
     font-family: sans-serif;
@@ -43,12 +63,3 @@
         padding: 1rem;
         color: rgb(250, 69, 24);
 }  
-
-//*esto no me funciona!! no puedo centrar la imagen...lo hice en el html...xq?.tablero {
-  margin: 1rem;
-  padding: 1rem;
-  justify-items: center;
-  align-items: center;
- 
-  }
-//*
