@@ -4,7 +4,7 @@
     margin-top: 3.5rem;
 }
 
-label,input{font-size: 1vw; font-family: sans-serif; color:#000}
+label,input{font-size: 1vw; font-family: sans-serif; color:white}
 input[type=text],input[type=date],input[type=password]
 input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
 
@@ -16,6 +16,10 @@ input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
     border: radius 4px;
     box-sizing:border-box;
 }
+
+input[typer="radio"],input[type="checkbox"] select{font-size: 1vw; font-family: sans-serif; color:white}
+
+
 
 input[type=submit]{
 width:100%;
@@ -33,6 +37,6 @@ input[type=submit]:hover {background-color: #45a049;}
 input[type=submit]:hover {background-color: #45a049;}
 
 .formulario{border-radius: 5xp;
-background-color: #dddbdb;
+background: rgba(0, 0, 0, 0.7);
 padding:2%;
 margin:1% 20%}

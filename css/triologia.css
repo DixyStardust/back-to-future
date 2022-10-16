@@ -10,6 +10,7 @@
 .flyer{
 	/* border: 1px solid red; */
 	margin:1rem 0.5rem 1.5rem;	
+	transition: .3s ease-in-out;
 }
 .flyer_img{
 	/* border: 1px solid white; */
@@ -18,8 +19,16 @@
 	justify-content: center;
 	margin-top:1rem;
 	height: 400px;
+	transition: .3s ease-in-out;
+	
+
+}.flyer_img:hover{
+    scale: 0.9;
 }
-.flyer_img > img{
+
+
+
+.flyer_img > a{
 	/* border: 1px solid white; */
 	width: 250px;
 	height: auto;
@@ -40,7 +49,7 @@
 		height: 300px;
 		margin-top: 4.5rem;	
 	}
-	.flyer_img > img{
+	.flyer_img > a{
 		/* border: 1px solid white; */
 		width: 200px;
 		height: auto;
@@ -55,7 +64,7 @@
 		height: 400px;
 		margin-top: 3.5rem;	
 	}
-	.flyer_img > img{
+	.flyer_img > a{
 		/* border: 1px solid white; */
 		width: 300px;
 		height: auto;
