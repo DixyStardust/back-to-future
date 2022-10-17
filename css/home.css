@@ -4,13 +4,13 @@
     margin-top: 3rem;
 }
 .contenido-principal {
-  margin: 1rem;
-  padding: 1rem;
-  justify-items: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .music {
@@ -43,6 +43,7 @@
     margin: 1rem;
     padding: 1rem;
     color: rgb(236, 146, 10);
+    line-height: 1.6;
 }
 
 .invite {
@@ -57,12 +58,12 @@
 }
 
 .future {
-        font-weight: absolute;
-        font-family: 'Lucida Sans', Verdana, sans-serif;
-        font-size: 20px;  
-        font-style: italic;
-        text-align: center;
-        margin: 1rem;
-        padding: 1rem;
-        color: rgb(250, 69, 24);
+    font-weight: absolute;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 20px;  
+    font-style: italic;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: rgb(250, 69, 24);
 }  
