@@ -1,0 +1,23 @@
+@import url(style.css);
+
+.flex-miscelaneas {
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 15px;  
+    font-style: double;
+    text-align: justify;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    color:  rgb(255, 166, 1);
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    line-height: 1.6;
+  }
