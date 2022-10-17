@@ -76,7 +76,12 @@ h3 {
 .img_actor{
   width: 200px;
   height: 200px;
+  transition: .3s ease-in-out;
 }
+.img_actor:hover{
+    scale: 0.9;
+}
+
   
 .text_biografia{
   text-align: justify;
