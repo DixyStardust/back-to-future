@@ -8,6 +8,7 @@
     <link href="css/contacto.css" rel="stylesheet">
     <title> Contacto </title>
     <link rel="icon" href="icon/clock_clock tower_flash_tower_icon.png">
+    <script src="Js/formulario.js"></script>
 
 </head>
 
@@ -49,10 +50,12 @@
     <main class="main_contacto">
         <div class="contenido-principal"></div>
         <div>
+          <br><br><br>
+
             <h2>Formulario de Registro</h2>
             <form class=formulario action="Show_data.html" target="blank">
 
-                <label for="firstnmame">Nombre:</label> <input type="text" name="firstname"
+                <label for="firstnmame">Nombre:</label> <input type="text" name="firstname" id="nombre"
                     placeholder="Ingrese su nombre">
                 <br>
                 <br>
@@ -60,7 +63,7 @@
                     placeholder="Ingrese su apellido">
                 <br>
                 <br>
-                <label for="Street">Mail:</label> <input type="text" name="mail" placeholder="Ingresa tu mail">
+                <label for="Street">Mail:</label> <input type="text" name="mail" id="email" placeholder="Ingresa tu mail">
                 <br>
                 <br>
                 <label for="Street">Dirección:</label> <input type="text" name="addres"
@@ -88,10 +91,10 @@
                     <input type="checkbox" name="Pelicula" value="Volver al futuro III">Volver al futuro III</input>
                 </p>
 
-                <input type="submit" Value="Enviar"></input>
-
+                <input type="submit" Value="Enviar" id="btn-enviar" ></input>
+                
             </form>
-            <p >Si usted hace click en el boton enviar, la información sera enviada a la página"show_data.html</p>
+           
     </main>
     <!--************************* pie de pagina *************************-->
    
@@ -127,6 +130,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          <!-------------------------- script  ----------------------------->
   <script src="js/showMenu.js"></script>
+  
 </body>
 
 </html>
