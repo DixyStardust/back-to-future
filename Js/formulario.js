@@ -1,4 +1,4 @@
-const btnEnviar = document.getElementById('btn-enviar');
+/*const btnEnviar = document.getElementById('btn-enviar');
 
 const validar = (e) => {
   
@@ -25,3 +25,4 @@ const validar = (e) => {
 btnSubmit = document.querySelector('[type="submit"]')
 
 btnSubmit.addEventListener('click', validar);
+btnEnviar.action*/
