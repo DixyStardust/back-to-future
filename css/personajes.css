@@ -4,10 +4,10 @@
   /* border:1px solid orange; */
   margin-top: 4rem;
 }
+
 .main_vaf1{
   margin-top: 3rem;
 }
-
 
 .flex-paragraphcast {
     font-weight: lighter;
@@ -25,8 +25,9 @@
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-  }
-  .cast {
+}
+
+.cast {
     font-weight: bolder;
     font-family: sans-serif;
     font-size: 20px;  
@@ -42,44 +43,56 @@
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-  }
-  .personaje{
+}
+
+.personaje{
     /* border: 1px solid blue; */
     display:flex;
     flex-direction:row;
-    
-  }
-  .nombre_presonaje{
+}
+
+.nombre_personaje{
     /* border: 1px solid red; */
     padding: 10px;
-  }
-  .nombre_presonaje > h3{
-    text-align: center;
-    padding: 0.5rem;
-  }
-  .img_actor{
+}
+
+h3 {
+  text-align: center;
+  padding: 0.5rem;  
+}
+
+.pelicula {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;  
+  font-style: double;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  color: rgb(250, 69, 24);
+}
+
+.img_actor{
     width: 200px;
     height: 200px;
-  }
+}
   
-  
-  .text_biografia{
+.text_biografia{
     text-align: justify;
     padding: 2rem 1rem 0 1rem;
-  }
+}
 
-  .reparto_actores{
+.reparto_actores{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 1rem;
-  }
-  .logo{
+}
+
+.logo{
     width: 500px;
     height: auto;
-    
-    
-  }
+}
 
 .logo_film{
   display:flex;
@@ -113,13 +126,13 @@
   display:flex;
   flex-direction:row;
   justify-content: center;}
+
 .video > iframe{ 
   width: 560px;
   height: 315px;
 }
   
-  .iframe{
+.iframe{
     width: 560px;
     height: 315px;
-
-  }
+}
