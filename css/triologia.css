@@ -1,57 +1,102 @@
 @import url(style.css);
 .main_trilogia{
-	margin-top: 4rem;
+	margin-top: 3rem;
 }
 .flyer_trilogia{
+	/* border: 1px solid red; */
 	display:flex;
 	flex-direction: column;
+	align-items: center;
 	justify-content:space-around;
 }
 .flyer{
 	/* border: 1px solid red; */
-	margin:1rem 0.5rem 1.5rem;	
-	transition: .3s ease-in-out;
+	/* margin:1rem 0.5rem 1.5rem; */
+	display:flex;
+	width: 300px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top:1rem;
 }
 .flyer_img{
-	/* border: 1px solid white; */
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top:1rem;
+	/* border: 1px solid red; */
+	width: 250px;
+	text-align: center;
 	height: 400px;
-	transition: .3s ease-in-out;
-	
-
-}.flyer_img:hover{
-    scale: 0.9;
+	/* transition: .3s ease-in-out; */
+	position: relative;
+	overflow: hidden;
 }
 
-
-
-.flyer_img > a{
+.flyer_img img{
 	/* border: 1px solid white; */
 	width: 250px;
 	height: auto;
+	transition: all .5s;
 }
+
+.flyer_img:hover{
+    transform:scale(1.09);
+}
+.content {
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+}
+
+.flyer_img .content{
+	/* border: 1px solid white; */
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top:-100%;
+	left:0;
+	text-align: center;
+	height:100%;
+	width: 100%;
+}
+.icon_hover {
+	color: black;
+	font-size: 25px;
+	padding: 4px;
+	background: gray;
+	border-radius: 50%;
+}
+.flyer_img:hover .content{
+	top: 0;
+}
+
+
 .flyer_title > h2{
 	margin:0.5rem;
 	font-size: 1.2rem;
 }
 @media screen  and (min-width:768px){
-	
+
+
 	.flyer_trilogia{
 		display:flex;
 		flex-direction:row;
 		justify-content:space-evenly;
 	}
+	.flyer{
+		/* border: 1px solid red; */
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
 	.flyer_img{
 		/* border: 1px solid white; */
-		height: 300px;
-		margin-top: 4.5rem;	
+		width: auto;
+		height: 350px;
+		/* margin-top: 4.5rem; */
 	}
-	.flyer_img > a{
+	.flyer_img img{
 		/* border: 1px solid white; */
-		width: 200px;
+		width: 250px;
 		height: auto;
 	}
 	.flyer_title > h2{
@@ -59,12 +104,16 @@
 	}
 }
 @media screen and (min-width: 1024px){
+	.flyer_trilogia{
+		margin-top: 0;
+	}
 	.flyer_img{
 		/* border: 1px solid white; */
-		height: 400px;
-		margin-top: 3.5rem;	
+		height: 450px;
+		width: 350px;
+		margin-top: 2.5rem;
 	}
-	.flyer_img > a{
+	.flyer_img img{
 		/* border: 1px solid white; */
 		width: 300px;
 		height: auto;
