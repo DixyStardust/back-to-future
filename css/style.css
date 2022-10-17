@@ -84,7 +84,7 @@ h3 {
     margin-bottom:-10%; 
     padding:1rem 0 0 0; 
 	height: 60vh;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3); /*------------------------------SI CAMBIAMOS ESTE COLOR SE DEJA DE VER EL NEGRO QUE LES DIGO!!!!! ------------------------------*/
 	display:flex;
 	flex-direction: column;
 	justify-content: space-evenly;
