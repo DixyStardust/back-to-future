@@ -80,8 +80,9 @@
           </div>
           <div class="music"> <audio controls autoplay><source src="mp3/The Power Of Love Huey Lewis And The News.mp3" type="audio/mp3">Tu navegador no soporta HTML5 audio.</audio>
             <br><br>
-            <a href="https://youtu.be/wBl2QGAIx1s" target= BLANK rel= noopener noreferrer> Click aquí </a>
-            <p>Para ver el video oficial de "El poder del amor", el tema más recordado de la primera entrega de esta saga.</p>
+            <p>Para ver el video oficial de "El poder del amor", el tema más recordado de la primera entrega de esta saga.</p> <a href="https://youtu.be/wBl2QGAIx1s" target= BLANK rel= noopener noreferrer> <i class="fa-solid fa-arrow-up-right-from-square icon_social"></i></a>
+          </div>
+            
         </article>
               
         <article class="article">
@@ -97,11 +98,12 @@
                  de décadas juntos, soltando alguna que otra broma que hizo vibrar al público, emocionado, reunido en el lugar. 
                 </p>
             <br><br>
-           <div class="comiccon"><iframe width="560" height="315" src="https://www.youtube.com/embed/hp3vRF_B_jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+           <div class="video"><iframe src="https://www.youtube.com/embed/hp3vRF_B_jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
            <p> No es la primera vez que se reencuentran, Regreso al Futuro es una de las películas que marcaron una generación, 
             Christopher Lloyd es puro carisma a sus 83 años y Michael J. Fox, es un ejemplo desafiando con orgullo al parkinson.</p>
+          </div>
         </article>
-      </div>
+     
 
  
 
@@ -111,7 +113,13 @@
           <h3 class="article-title">
             Hora Mundial
           </h3>
+          
+          <label for="hora">Qué hora es?:</label> <input type="text" name="hora"
+                    placeholder="Ingrese un lugar">
+                             
           <br>
+          <div><canvas id="canvas"></canvas></div>
+          
           </article>
         </div>  
 
@@ -136,9 +144,10 @@
               Esta firma también comercializa las piezas originales del modelo.
             </p>
             <br>
-                <a href="https://www.autobild.es/noticias/delorean-regreso-al-futuro-III-vendido-413000-euros-176409" target= BLANK rel= noopener noreferrer> Click aquí </a>
+            <p> Para leer la nota completa </p>
+                <a href="https://www.autobild.es/noticias/delorean-regreso-al-futuro-III-vendido-413000-euros-176409" target= BLANK rel= noopener noreferrer><i class="fa-solid fa-arrow-up-right-from-square icon_social"></i></a>
                 <br>
-                <p> Para leer la nota completa </p>
+               
           </article>
         
         <article class="article">
@@ -163,12 +172,14 @@
               Las ganancias volvieron a la fundación del actor para la lucha contra el Mal de Parkinson.
             </p>
             <br>
-              <a href="https://youtu.be/2XWqxxDGEKs" target= BLANK rel= noopener noreferrer> Click aquí </a>
+            <p>Para saber la historia completa de este calzado</p>
+              <a href="https://youtu.be/2XWqxxDGEKs" target= BLANK rel= noopener noreferrer><i class="fa-solid fa-arrow-up-right-from-square icon_social"></i></a>
               <br>
-              <p>Para saber la historia completa de este calzado</p>
+              
         </article>
     
     </div>
+  </div>
 
 
 
@@ -203,6 +214,8 @@
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          <!-------------------------- script  ----------------------------->
+  
+  <script src="js/clock.js"></script>
   <script src="js/showMenu.js"></script>
 
 </body>

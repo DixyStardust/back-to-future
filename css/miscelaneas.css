@@ -44,6 +44,7 @@
   flex: 1.5;
   justify-content: center;
   display: flex;
+  flex-direction: column;
 }
 
 .article {
@@ -60,7 +61,7 @@
   width: 70%;
   height: auto;
   align-items: center;
-}
+ }
 
 .clock {
   background: rgb(9, 2, 26);
@@ -72,3 +73,17 @@
   padding: 10px;
 }
 
+.video{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;}
+
+.video > iframe{ 
+  width: 560px;
+  height: 315px;
+}
+  
+.iframe{
+  width: 560px;
+  height: 315px;
+}
