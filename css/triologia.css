@@ -49,7 +49,7 @@
 
 .flyer_img .content{
 	/* border: 1px solid white; */
-	background: rgba(0,0,0,0.4);
+	background: rgba(9, 2, 26, 0.4);
 	position: absolute;
 	top:-100%;
 	left:0;
@@ -74,7 +74,9 @@
 	font-size: 1.2rem;
 }
 @media screen  and (min-width:768px){
-
+	.main_trilogia{
+		margin-top: 4.5rem;
+	}
 
 	.flyer_trilogia{
 		display:flex;
@@ -104,6 +106,9 @@
 	}
 }
 @media screen and (min-width: 1024px){
+	.main_trilogia{
+		margin-top: 4rem;
+	}
 	.flyer_trilogia{
 		margin-top: 0;
 	}

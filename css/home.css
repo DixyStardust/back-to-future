@@ -1,7 +1,8 @@
 @import url(style.css);
 
 .main_index{
-    margin-top: 3rem;
+     border: 1px solid orangered;
+    margin-top: 2rem;
 }
 .contenido-principal {
     margin: 1rem;
