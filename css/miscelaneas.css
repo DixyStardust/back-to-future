@@ -2,9 +2,12 @@
 
 .columns {
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
+  
+}
+.article{
+  margin-bottom: 2rem;
 }
 
 .content {
@@ -12,29 +15,31 @@
   flex-direction: column;
   justify-content: center;
   background: rgb(9, 2, 26);
-  border: 5px solid rgb(255, 166, 1);
   color: rgb(255, 166, 1);
-  margin: 10px;
-  padding: 20px;
   width: 100%;
 }
 
 .article-image {
-  border: 5px solid white;
+  /* border: 5px solid white; */
   display: flex;
   justify-content: center;
  } 
 
  .article-image img {
-  border: 5px solid red;
-  width: 450px;
+  /* border: 5px solid red; */
+  width: 400px;
   height: Auto;
 
  }
+ .content_clock{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .clock {
-  background: rgb(9, 2, 26);
-  border: 5px solid red;
+  
+  /* border: 5px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,24 +62,61 @@
 }
 .article-content {
   text-align: justify;
+  padding: 1rem;
 }
-/*------------ MEDIA QUERIES: medium ------------*/
+ /*------------ MEDIA QUERIES: medium ------------*/
 @media screen and (min-width:768px){
   .columns {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     display: flex;
-    align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin:1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    width: 100%;  
   }
   .content {
     margin:0;
-    border: 5px solid blue;
+    width:50%;
+    /* border: 2 px solid blue; */
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  .content_clock{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  .article{
+    margin-bottom: 1.5rem;
+    text-align:center;
+  }
+  .article:hover{
+    border:1px solid rgb(255, 166, 1);
+  }
+  .article-image{
+    text-align: center;
+    width:100%;
+
+  }
+   .article-image > img {
+    width:300px;
+    height: Auto;
+  }
+  .article-content {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  
+  .article{
+    margin-bottom: 2.5rem;
+    text-align:center;
   }
    .article-image img {
-    border: 5px solid red;
-   
+    width:550px;
     height: Auto;
+  }
+  .article-content {
+    padding: 0.5rem;
   }
 }

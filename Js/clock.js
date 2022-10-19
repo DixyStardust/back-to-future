@@ -6,7 +6,7 @@ function clock(){
     ctx.translate(75,75);
     ctx.scale(0.4,0.4);
     ctx.rotate(-Math.PI/2);
-    ctx.strokeStyle = "black";
+    ctx.strokeStyle = "white";/*Color del reloj */
     ctx.fillStyle = "white";
     ctx.lineWidth = 8;
     ctx.lineCap = "round";
