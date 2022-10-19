@@ -1,5 +1,10 @@
 @import url(style.css);
 
+
+
+
+@import url(style.css);
+
 .columns {
   display: flex;
   flex-direction: column;
@@ -109,6 +114,7 @@
 @media screen and (min-width: 1024px){
   
   .article{
+    margin-left: 1rem ;
     margin-bottom: 2.5rem;
     text-align:center;
   }
@@ -120,3 +126,10 @@
     padding: 0.5rem;
   }
 }
+h2 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: double;
+  text-align: left;
+  color: rgb(250, 39, 24);
