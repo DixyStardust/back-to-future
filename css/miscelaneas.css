@@ -1,73 +1,44 @@
 @import url(style.css);
 
 
-.main-miscelaneas {
-  background: rgb(9, 2, 26);
-  font-weight: lighter;
-  font-family: sans-serif;
-  font-size: 15px;  
-  font-style: double;
-  text-align: justify;
-  color:  rgb(255, 166, 1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  line-height: 1.6;
-}
+
 
 .columns {
   display: flex;
   align-items: center;
-}
-
-.column {
-  background: rgb(9, 2, 26);
-  border: 5px solid red;
-  display: flex;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
-}
-
-.main-column {
-  flex: 1.5;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: rgb(9, 2, 26);
   border: 5px solid rgb(255, 166, 1);
   color: rgb(255, 166, 1);
-  flex: 1;
   margin: 10px;
   padding: 20px;
-  
+  width: 450px;
 }
 
 .article-image {
-  width: 70%;
+  width: 450px;
   height: auto;
   align-items: center;
+ } 
+
+ .article-image img {
+  border: 5px solid red;
+  width: 400px;
+  height: Auto;
+
  }
 
 .clock {
   background: rgb(9, 2, 26);
   border: 5px solid red;
   display: flex;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
   padding: 10px;
@@ -86,4 +57,32 @@
 .iframe{
   width: 560px;
   height: 315px;
+}
+.article-content {
+  text-align: justify;
+}
+/*------------ MEDIA QUERIES: medium ------------*/
+@media screen and (min-width:768px){
+  .columns {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .article {
+    width: 600px;
+  }
+  
+  .article-image {
+    width: 450px;
+    height: auto;
+    align-items: center;
+   } 
+  
+   .article-image img {
+    border: 5px solid red;
+    width: 400px;
+    height: Auto;
+  
+   }
 }

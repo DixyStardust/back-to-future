@@ -97,17 +97,4 @@ function clock(){
   
   window.requestAnimationFrame(clock);
 
- /*const options = {
-    method: 'GET',
-    headers: {
-      'X-RapidAPI-Key': 'a59af99b5fmsh8d962fcfb031277p1ae37ajsn1789a217bfbc',
-      'X-RapidAPI-Host': 'world-time2.p.rapidapi.com'
-    }
-  };
-  
-  fetch('https://world-time2.p.rapidapi.com/timezone/Europe/London', options)
-    .then(response => response.json())
-    .then(response => console.log(response))
-    .catch(err => console.error(err));
-    */
-   
+ 
