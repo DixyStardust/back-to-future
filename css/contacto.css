@@ -3,50 +3,62 @@
 .main_contacto{
     margin-top: 3.5rem;
 }
-.body_form{
+.contenido-principal{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 1.5rem 0 1.5rem;
 }
-.body_form .input_label{
+.body_form {
+    width: 600px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: right;
 }
+.input_label{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 fieldset{
     margin-bottom:1rem;
+    width:100%;
 }
 legend{
     font-size: 1vw; 
     font-family: sans-serif;
     color:white;
+    margin:0.5rem;
 }
 .option{
     margin: 0.5rem;
 }
+.option > input{
+    margin:0.75rem;
+}
 
-label,input{
+label{
     font-size: 1vw; 
     font-family: sans-serif; 
-    color:white;}
-input[type=text],input[type=date], input[type=email]{
+    color: rgb(255, 166, 1);
+}
 
-    width: 80%;
+input[type=text],input[type=date],input[type=email]{
+    width: 75%; 
+    text-align: justify;
     padding: 1vw;
     margin: 1vw;
-    display:inline-block;
+    display:block;
     border:1vw;
     border: radius 4px;
     box-sizing:border-box;
-    color: black;
+    background-color:  #dddbdb;
 }
-
-
-
-
 
 input[type=submit]{
 width:100%;

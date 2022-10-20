@@ -48,9 +48,7 @@
         </nav>
       </header>
     <main class="main_contacto">
-        <div class="contenido-principal"></div>
-        <div>
-          <br><br><br>
+        <div class="contenido-principal">
           <h2>Formulario de Registro</h2>
             <form class="formulario" id="formulario" action="Show_data.html" method="post" target="blank">
                 <div class="body_form">
@@ -58,63 +56,54 @@
                     <input type="text" name="firstname" id="nombre" placeholder="Ingrese su nombre">
                   </label> 
                   
-                  <br>
-                  <br>
+                
                   <label class="input_label" for="apellido">Apellido:
                     <input type="text" name="lastname" placeholder="Ingrese su apellido" required>
                   </label> 
-                  <br>
-                  <br>
+                  
                   <label class="input_label" for="Street">Mail:
                     <input type="email" name="mail" id="email" placeholder="Ingresa tu mail">
-                  </label> 
-                  <br>
-                  <br>
+                  </label>
+                  
                   <label  class="input_label"for="Street">Dirección:
                     <input type="text" name="addres" placeholder="Ingrese su dirección">
                   </label> 
-                  <br>
-                  <br>
+                  
                   <label class="input_label" for="City">Ciudad:
                     <input type="Text" name="city" value="CABA" readonly>
                   </label> 
-                  <br>
-                  <br>
-                  <label class="input_label" for="zipcode">Codigo Postal:
+                  
+                  <label class="input_label" for="zipcode">Código Postal:
                     <input type="text" name="zipcode" placeholder="Ingrese su código Postal">
                   </label> 
-                  <br>
-                  <br>
+                  
                   <label class="input_label" for="Birthday">Fecha de nacimiento:
                     <input type="date" name="birthday">
                   </label> 
-                
-                
-                <fieldset>
-                  <legend>Genero</legend>
-                  <div class="option">
-                    <input type="radio" name="gender" value="Hombre" checked><label>Hombre</label>
-                    <input type="radio" name="gender" value="Mujer"><label>Mujer</label>
-                    <input type="radio" name="gender" value="otro"><label>Otro</label>
-                  </div>
-                </fieldset>
+            
+                  <fieldset>
+                    <legend>Género</legend>
+                    <div class="option">
+                      <input type="radio" name="gender" value="Hombre" checked><label>Hombre</label>
+                      <input type="radio" name="gender" value="Mujer"><label>Mujer</label>
+                      <input type="radio" name="gender" value="otro"><label>Otro</label>
+                    </div>
+                  </fieldset>
 
-                <fieldset>
-                  <legend>Pelicula preferida</legend>
-                  <div class="option">
-                    <input type="checkbox" name="Pelicula" value="Volver al Futuro I"><label>Volver al Futuro I<label>
-                    <input type="checkbox" name="Pelicula" Value="Volver al futuro II"><label>Volver al futuro II<label>
-                    <input type="checkbox" name="Pelicula" value="Volver al futuro III"><label>Volver al futuro III<label>
-                  </div>
-                </fieldset>
+                  <fieldset>
+                    <legend>Película preferida</legend>
+                    <div class="option">
+                      <input type="checkbox" name="Pelicula" value="Volver al Futuro I"><label>Volver al Futuro I</label>
+                      <input type="checkbox" name="Pelicula" Value="Volver al futuro II"><label>Volver al futuro II</label>
+                      <input type="checkbox" name="Pelicula" value="Volver al futuro III"><label>Volver al futuro III</label>
+                    </div>
+                  </fieldset>
               </div>
 
                 <input type="submit" Value="Enviar" id="btn-enviar" >
                 
             </form>
-
-            
-        </div> 
+        </div>
     </main>
     <!--************************* pie de pagina *************************-->
    
@@ -149,8 +138,9 @@
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          <!-------------------------- script  ----------------------------->
-  <script src="js/showMenu.js"></script>
-  <script src="js/formulario.js"></script>
+    <script src="js/formulario.js"></script>
+    <script src="js/showMenu.js"></script>
+ 
   
 </body>
 
