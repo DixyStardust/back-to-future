@@ -4,7 +4,7 @@
     margin-top: 3.5rem;
 }
 
-label,input{font-size: 1vw; font-family: sans-serif; color:white}
+label,input{font-size: 1vw; font-family: sans-serif; color: rgb(255, 166, 1);}
 input[type=text],input[type=date],input[type=password]
 input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
 
@@ -15,9 +15,10 @@ input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
     border:1vw;
     border: radius 4px;
     box-sizing:border-box;
+    background-color:  #dddbdb;
 }
 
-p{font-size: 1vw; font-family: sans-serif; color:white}
+p{font-size: 1vw; font-family: sans-serif; color: rgb(255, 166, 1)}
 
 
 
