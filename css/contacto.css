@@ -3,10 +3,36 @@
 .main_contacto{
     margin-top: 3.5rem;
 }
+.body_form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.body_form .input_label{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+fieldset{
+    margin-bottom:1rem;
+}
+legend{
+    font-size: 1vw; 
+    font-family: sans-serif;
+    color:white;
+}
+.option{
+    margin: 0.5rem;
+}
 
-label,input{font-size: 1vw; font-family: sans-serif; color:white}
-input[type=text],input[type=date],input[type=password]
-input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
+label,input{
+    font-size: 1vw; 
+    font-family: sans-serif; 
+    color:white;}
+input[type=text],input[type=date], input[type=email]{
 
     width: 80%;
     padding: 1vw;
@@ -15,9 +41,10 @@ input[type=mail],input[type=numer],input[type=url],input[type=textArea] select{
     border:1vw;
     border: radius 4px;
     box-sizing:border-box;
+    color: black;
 }
 
-p{font-size: 1vw; font-family: sans-serif; color:white}
+
 
 
 
