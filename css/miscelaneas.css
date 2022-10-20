@@ -133,8 +133,22 @@
     flex-direction: row;
     justify-content: space-around;
     margin-left: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
+.weather-info {
+  padding: 0.5;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  color: rgb(255, 166, 1);
+  background-color: rgb(9, 2, 26);
+ 
+}
+
+.weather__item {
+  padding-left: 0.8rem;
+}
+
 h2 {
   font-weight: bold;
   font-family: sans-serif;
@@ -142,3 +156,4 @@ h2 {
   font-style: double;
   text-align: left;
   color: rgb(250, 39, 24);
+}
