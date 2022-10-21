@@ -49,6 +49,10 @@ Esta página está disponible para todas las versiones de navegadores.
 * **Mariela Lorenzo** - [DixyStardust](https://github.com/DixyStardust)
 * **Maria Victoria Cabello** - [M-VictoriaCM](https://github.com/M-VictoriaCM)
 
+
+| [<img src="https://avatars.githubusercontent.com/u/6910011?v=4" width=115><br><sub>Pippie</sub>](https://github.com/Pippie) |  [<img src="https://avatars.githubusercontent.com/u/114081375?v=4" width=115><br><sub>Dixy Stardust</sub>]([https://github.com/](https://github.com/)) |  [<img src="https://avatars.githubusercontent.com/u/70769530?v=4" width=115><br><sub>M-VictoriaCM</sub>](https://github.com/M-VictoriaCM) |
+| :---: | :---: | :---: |
+
 ## Licencia 📄
 
 Este proyecto está bajo nuestra Licencia :copyright:
