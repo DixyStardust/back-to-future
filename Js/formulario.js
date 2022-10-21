@@ -1,28 +1,45 @@
 
-const btnEnviar = document.getElementById('btn-enviar');
+let btnEnviar = document.getElementById('btn-enviar');
 
-const validar = (e) => {
+let validar = (e) => {
   
     e.preventDefault();
 
-  const nombreDeUsuario = document.getElementById('nombre');
-  const direcciónEmail = document.getElementById('email');
+  let nombreDeUsuario = document.getElementById('nombre');
+  let apellidoDeUsuario = document.getElementById('apellido');
+  let emailDeUsuario = document.getElementById('email');
+  let direccionDeUsuario = document.getElementById('direccion');
+  let codPostalDeUsuario = document.getElementById('cp');
 
-  if (nombreDeUsuario.value === "") {
-    alert("Por favor, escribe tu nombre tu nombre.");
-    nombreDeUsuario.focus();
+  if (nombre.value === "") {
+    alert("Por favor, escribe tu nombre.");
+    nombre.focus();
     return false;
   }
   
-  if (direcciónEmail.value === "") {
+  if (apellido.value === "") {
+    alert("Por favor, escribe tu apellido.");
+    apellido.focus();
+    return false;
+  }
+  if (email.value === "") {
     alert("Por favor, escribe tu correo electrónico");
-    direcciónEmail.focus();
+    email.focus();
     return false;
   }
-  
+  if (direccion.value === "") {
+    alert("Por favor, escribe tu dirección.");
+    direccion.focus();
+    return false;
+  }
+  if (cp.value === "") {
+    alert("Por favor, escribe tu código Postal");
+    cp.focus();
+    return false;
+  }
   return true;
 }
 
-btnSubmit = document.querySelector('submit')
+btnSubmit = document.querySelector('[type="submit"]')
 
 btnSubmit.addEventListener('click', validar);
