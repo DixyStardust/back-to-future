@@ -43,3 +43,4 @@ let validar = (e) => {
 btnSubmit = document.querySelector('[type="submit"]')
 
 btnSubmit.addEventListener('click', validar);
+

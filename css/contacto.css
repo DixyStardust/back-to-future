@@ -72,8 +72,8 @@ cursor:pointer;
 
 }
 
-input[type=submit]:hover {background-color: #45a049;}
-input[type=submit]:hover {background-color: #45a049;}
+button[type=submit]:hover {background-color: #07ce11;}
+
 
 .formulario{border-radius: 5xp;
 background: rgba(0, 0, 0, 0.7);
