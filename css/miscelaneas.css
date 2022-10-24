@@ -116,7 +116,7 @@
     text-align:center;
   }
    .article-image img {
-    width:550px;
+    width:500px;
     height: Auto;
   }
   .article-content {
@@ -137,7 +137,6 @@
   justify-content: left;
   color: rgb(255, 166, 1);
   background-color: rgb(9, 2, 26);
- 
 }
 
 .weather__item {
