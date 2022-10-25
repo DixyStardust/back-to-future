@@ -53,6 +53,12 @@ Esta página está disponible para todas las versiones de navegadores.
 | [<img src="https://avatars.githubusercontent.com/u/6910011?v=4" width=115><br><sub>Pippie</sub>](https://github.com/Pippie) |  [<img src="https://avatars.githubusercontent.com/u/114081375?v=4" width=115><br><sub>Dixy Stardust</sub>]([https://github.com/](https://github.com/)) |  [<img src="https://avatars.githubusercontent.com/u/70769530?v=4" width=115><br><sub>M-VictoriaCM</sub>](https://github.com/M-VictoriaCM) |
 | :---: | :---: | :---: |
 
+## Desarrollo del Proyecto 📁 :bulb:
+
+* [Pippie](https://github.com/Pippie) _Personajes , sinopsis, misceláneas, form y api_
+* [DixyStardust](https://github.com/DixyStardust) _Index , argumentos, misceláneas, animaciones en javascript_
+* [M-VictoriaCM](https://github.com/M-VictoriaCM) _Trilogía , misceláneas, form_
+
 ## Licencia 📄
 
 Este proyecto está bajo nuestra Licencia :copyright:
