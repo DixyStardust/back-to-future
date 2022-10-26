@@ -37,6 +37,8 @@ _Netlify_
 + HTML 
 + CSS
 + Javascript
+* VUE.js
++ API rest [Mockapi.io](https://mockapi.io) 
 * API sobre el clima [Goweather](https://goweather.herokuapp.com/weather/Argentina) 
 
 ## Versiones 📌
