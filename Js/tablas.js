@@ -1,57 +1,33 @@
-"use strict";
+/*------------ trae datos desde el api -------------*/
+//asignar esta funcion a una variable asincrona
+async function getUsers() {
+    try { 
+      let res = await fetch(url);
+      let response = await res.json();
+      mostrarTablas(response);
+      return response;
+    } catch (error) {
+        console.log(error);
+    }	 
+  }
 
-document.addEventListener("DOMContentLoaded", inicioPagina);
+  /*function mostrarTablaCreada(usuario) { 
 
-function inicioPagina(){
-
-    //dibujo la tabla
-    function hacerTabla() {
-        let tableBody = document.getElementById('btn-enviar');
-        tableBody.innerHTML = "";
-        tbEmergencia.forEach(function (e) {
-            tableBody.insertRow(-1).innerHTML +=
-                `<tr>
-                <td>${e.name}</td>
-                <td>${e.lastname}</td>
-                <td>${e.address}</td>
-                <td>${e.postalcode}</td>
-            </tr>`;
-        });
-
-
-    }
-
-
-    function agregar() {
-        let name = document.getElementById('nombre').value;
-        let lastname = document.getElementById('apellido').value;
-        let mail = document.getElementById('email').value;
-        let address = document.getElementById('direccion').value;
-        let postalcode = document.getElementById('cp').value;
-        let botonAgregar = document.getElementById('btn-enviar');
-        botonAgregar.addEventListener('click', function(e){
-        //defino el arreglo
-            let dato = {
-                "nombre": name,
-                "apellido": lastname,
-                "email": mail.value,
-                "direccion":address, 
-                "cp":postalcode
-            };
-            hacerTabla();
-        
-       
-        });
-        
-    }
-
-    addEventListener("load", hacerTabla);
-  
-    //campos del formulario
-
-    
-    
-     
-    
-    
+  tbody.innerHTML = "";
+  usuario.forEach(json.usuario => {
+      crearLugar(usuario);
+  });
 }
+
+function crearLugar(usuario) {
+
+  let row = document.createElement("tr");
+  let campos= document.createElement("td");
+  let datosIngresados = document.createElement("td");
+  campos.innerHTML = usuario.thing.;
+  datosIngresados.innerHTML = "";
+  row.appendChild(campos);
+  row.appendChild(datosIngresados);
+  tbody.appendChild(row);
+}*/
+    

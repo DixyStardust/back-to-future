@@ -1,69 +1,46 @@
 "use strict";
-document.addEventListener("DOMContentLoaded", inicioPagina);
-function inicioPagina() {
-  document.getElementById('btn-enviar').addEventListener("click", validar);
-  
-  function validar(e){
-    let name =document.getElementById('nombre').value;
-    let lastname = document.getElementById('apellido').value;
-    let mail = document.getElementById('email').value;
+//Endpoint mockapi
+const url = "https://635777772712d01e14084afe.mockapi.io/usuarios";
 
-    if(name === "" || lastname == "" || mail === ""){
-      e.preventDefault();
-      alert("faltan datos");
-    }else{
-      return alert("su datos fueron recibidos");
+let buttonSend = document.getElementById("btnEnviar");
+buttonSend.addEventListener("click", addUser);
+
+let tbody = document.getElementById("tbody-dinamico");
+
+//Agrega los datos a del formulario a el API
+async function addUser(event) {
+  event.preventDefault();
+  let nombre = document.getElementById("nombre").value;
+  let apellido = document.getElementById("apellido").value;
+  let email = document.getElementById("email").value;
+  let direccion = document.getElementById("direccion").value;
+  let cp = document.getElementById("cp").value;
+
+  let usuario = {
+    "nombre": nombre,
+    "apellido": apellido,
+    "email": email,
+    "direccion": direccion,
+    "cp": cp
+  };
+
+  if (nombre != "" && apellido != "" && email != "" && direccion != "" && cp != "") {
+    try {
+      let res = await fetch(url, {
+        "method": "POST",
+        "headers": {
+          "Content-type": "application/json"
+        },
+        "body": JSON.stringify(usuario)
+      });
+
+      if (res.status == 201) {
+        window.location.href = "./show_data.html";
+      }
+    } catch (error) {
+      console.log(error);
     }
-    window.location.href="./show_data.html";
+  } else {
+    alert("Tiene los campos vacios");
   }
-  let form =document.getElementById('formulario');
-  form.addEventListener('submit', function(){
-    form.reset();
-  })
 }
-  
-
-// let btnEnviar = document.getElementById('btn-enviar');
-
-// let validar = (e) => {
-  
-//     e.preventDefault();
-
-//   let nombreDeUsuario = document.getElementById('nombre');
-//   let apellidoDeUsuario = document.getElementById('apellido');
-//   let emailDeUsuario = document.getElementById('email');
-//   let direccionDeUsuario = document.getElementById('direccion');
-//   let codPostalDeUsuario = document.getElementById('cp');
-
-//   if (nombre.value === "") {
-//     alert("Por favor, escribe tu nombre.");
-//     nombre.focus();
-//     return false;
-//   }
-  
-//   if (apellido.value === "") {
-//     alert("Por favor, escribe tu apellido.");
-//     apellido.focus();
-//     return false;
-//   }
-//   if (email.value === "") {
-//     alert("Por favor, escribe tu correo electrónico");
-//     email.focus();
-//     return false;
-//   }
-//   if (direccion.value === "") {
-//     alert("Por favor, escribe tu dirección.");
-//     direccion.focus();
-//     return false;
-//   }
-//   if (cp.value === "") {
-//     alert("Por favor, escribe tu código Postal");
-//     cp.focus();
-//     return false;
-//   }
-//   return true;
-// }
-
-// btnSubmit = document.querySelector('[type="submit"]')
-
-// btnSubmit.addEventListener('click', validar);
