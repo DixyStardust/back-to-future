@@ -1,15 +1,16 @@
 /*------------ trae datos desde el api -------------*/
-//asignar esta funcion a una variable asincrona
-async function getUsers() {
-    try { 
-      let res = await fetch(url);
-      let response = await res.json();
-      mostrarTablas(response);
-      return response;
-    } catch (error) {
-        console.log(error);
-    }	 
-  }
+const getUsers = async()=>{
+  try { 
+    let res = await fetch(url);
+    let response = await res.json();
+    mostrarTablas(response);
+    return response;
+  } catch (error) {
+      console.log(error);
+  }	
+}
+getUsers();
+
 
   /*function mostrarTablaCreada(usuario) { 
 
