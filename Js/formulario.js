@@ -5,7 +5,7 @@ const url = "https://635777772712d01e14084afe.mockapi.io/usuarios";
 let buttonSend = document.getElementById("btnEnviar");
 buttonSend.addEventListener("click", addUser);
 
-let tbody = document.getElementById("tbody-dinamico");
+
 
 //Agrega los datos a del formulario a el API
 async function addUser(event) {

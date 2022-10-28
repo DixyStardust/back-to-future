@@ -1,30 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="css/contacto.css" rel="stylesheet"> -->
+  <link href="css/contacto.css" rel="stylesheet">
   <title>Document</title>
 </head>
+
 <body>
+  <header class="header">
+    <div id="header-logo">
+      <div id="flex-item">
+        <img class="izquierda" src="icon/cientist_doc_doctor brown_emmett brown_icon.png" alt="Doctor Emmet Brown">
+        <img class="derecha" src="icon/marty_marty mcfly_mcfly_icon.png" alt="Marty McFly">
+        <h1 class="nombre_seccion">Contacto</h1>
+      </div>
+      <hr>
+    </div>
+
+    <nav class="main-nav">
+      <div id="toggle-menu" class="toggle-menu">
+        <i class="fa-solid fa-bars icon__menu"></i>
+      </div>
+      <ul id="main-menu" class="main-menu">
+        <li class="main-menu__item">
+          <a href="index.html" class="main-menu__link">Inicio</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="Trilogia.html" class="main-menu__link">Trilogía</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="personajes.html" class="main-menu__link">Personajes</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="miscelaneas.html" class="main-menu__link">Misceláneas</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="contacto.html" class="main-menu__link">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main_contacto"></main>
+  <h2>Datos ingresados</h2>
+  <div class="tab">
     <table id="tabla-dinamica">
       <thead>
-          <tr>
-              <th>Campo del Formulario</th>
-              <th>Valor</th>
-              <th>Opciones</th>
-          </tr>
+        <tr>
+          <th>Id usuario</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>E-mail</th>
+          <th>Dirección</th>
+          <th>Código Postal</th>
+        </tr>
       </thead>
-        <tbody id="tbody-dinamico">
-           
-        </tbody>
-        <tfoot>
-          
-        </tfoot>
-      
-      </table>
+      <tbody id="tbody-dinamico">
+  
+      </tbody>
+      <tfoot>
+  
+      </tfoot>
+  
+    </table>
+  </div>
+  </main>
+  <!--************************* pie de pagina *************************-->
 
-    <script src="js/tablas.js"  defer></script>
+  <footer class="container-footer">
+
+    <!--************************* redes sociales *************************-->
+    <div class="box_footer">
+      <a href="http://">
+        <i class="fa-brands fa-twitter icon_social"></i>
+      </a>
+      <a href="http://">
+        <i class="fa-brands fa-facebook icon_social"></i>
+      </a>
+      <a href="http://">
+        <i class="fa-brands fa-pinterest icon_social"></i>
+      </a>
+      <a href="http://">
+        <i class="fa-brands fa-instagram icon_social"></i>
+      </a>
+      <a href="http://">
+        <i class="fa-brands fa-linkedin icon_social"></i>
+      </a>
+    </div>
+
+    <p class="text_footer">Derechos reservados &#169;2020</p>
+
+  </footer>
+  <!-------------------------- script de iconos ----------------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-------------------------- script  ----------------------------->
+
+  <script src="js/tablas.js" defer></script>
 </body>
+
 </html>
