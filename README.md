@@ -57,9 +57,9 @@ Esta página está disponible para todas las versiones de navegadores.
 
 ## Desarrollo del Proyecto 📁 :bulb:
 
-* [Pippie](https://github.com/Pippie) _Personajes , sinopsis, misceláneas, form y api_
-* [DixyStardust](https://github.com/DixyStardust) _Index , argumentos, misceláneas, animaciones en javascript_
-* [M-VictoriaCM](https://github.com/M-VictoriaCM) _Trilogía , misceláneas, form_
+* [Pippie](https://github.com/Pippie) _Personajes , Sinopsis, Misceláneas, Form y api clima_
+* [DixyStardust](https://github.com/DixyStardust) _Index , Argumentos, Misceláneas, Animaciones en javascript_
+* [M-VictoriaCM](https://github.com/M-VictoriaCM) _Trilogía , Misceláneas, Form, api rest_
 
 ## Licencia 📄
 
