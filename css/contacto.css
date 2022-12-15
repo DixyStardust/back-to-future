@@ -8,60 +8,77 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 0 1.5rem 0 1.5rem;
+    margin:0.5rem ;
+}
+.cont_form{
+	align-self: center;
 }
 
 .body_form {
-    width: 600px;
-    display:flex;
+	display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: right;
+	width:450px;
+}
+.body_form >.input_label{
+	display:flex;
+    flex-direction: row;
+	justify-content: space-between;
 }
 
 .input_label{
-    display:flex;
-    flex-direction: row;
-    width:100%;
-    justify-content: space-between;
-    align-items: center;
+   text-align: left;
+   margin-left: 0.8rem;
+   font-size:1rem;
+   font-family: inherit;
+   align-items: center;
+}
+.input_camp{
+	border-radius: 5px;
+}
+.input_labelC{
+	font-size:0.9rem;
+	text-align:center
+	
+}
+.input_labelC > .input_camp{
+	margin-right:0.5rem;
+	margin-left: 0.5rem;
 }
 
 fieldset{
-    margin-bottom:1rem;
-    width:100%;
+	width: 440px;
+	margin:1rem 1rem 1rem 0.5rem;
+	align-self: left;
+	border: 1px solid white;
+	padding-bottom:1rem;
 }
 
 legend{
-    font-size: 1vw; 
-    font-family: sans-serif;
-    color:white;
-    margin:0.5rem;
+   text-align: left;
+   color:white;
+   font-size:1rem;
+   font-family: inherit;
 }
 
 .option{
-    margin: 0.5rem;
+    display:flex;
+    flex-direction: row;
+	justify-content: space-evelin;
 }
 
-.option > input{
-    margin:0.75rem;
-}
 
 label{
-    font-size: 1vw; 
-    font-family: sans-serif; 
+    font-family: inherit; 
     color: rgb(255, 166, 1);
 }
 
 input[type=text],input[type=date],input[type=email]{
-    width: 75%; 
+    width: 60%;
     text-align: justify;
-    padding: 1vw;
+    padding: 0.5rem;
     margin: 1vw;
     display:block;
-    border:1vw;
-    border: radius 4px;
+   
     box-sizing:border-box;
     background-color:  #dddbdb;
 }
@@ -77,15 +94,9 @@ cursor:pointer;
 }
 
 .button-send:hover {
-    background-color: #07ce11;}
-
-
-.formulario{border-radius: 5xp;
-background: rgba(0, 0, 0, 0.7);
-padding:2%;
-margin:1% 20%
+    background-color: #07ce11;
+	border:1px solid darkgreen;
 }
-
 
 
 /*-----------------------Show_data------------*/
@@ -104,4 +115,37 @@ th, td{
     width:25%;
     text-align:center;
     color: white;
+}
+@media screen and (min-width:768px)  {
+	.body_form {
+		width:600px;
+	}
+	fieldset{
+		width: 600px;
+	}
+	input[type=text],input[type=date],input[type=email]{
+		width: 70%;
+	}
+	.input_labelC > .input_camp{
+		margin-right: 1rem;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.body_form {
+		width:950px;
+	}
+	input[type=text],input[type=date],input[type=email]{
+		width: 80%;
+		padding: 1rem;
+	}
+	.input_label{
+		font-size: 1.1rem;
+	}
+	.main_contacto{
+		margin-top: 4.5rem;
+	}
+	fieldset{
+		width: 940px;
+	}
+	
 }

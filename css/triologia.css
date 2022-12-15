@@ -36,9 +36,7 @@
 	transition: all .5s;
 }
 
-.flyer_img:hover{
-    transform:scale(1.09);
-}
+
 .content {
 	display:flex;
 	flex-direction: column;
@@ -75,7 +73,7 @@
 }
 @media screen  and (min-width:768px){
 	.main_trilogia{
-		margin-top: 4.5rem;
+		margin-top: 6rem;
 	}
 
 	.flyer_trilogia{
@@ -107,7 +105,7 @@
 }
 @media screen and (min-width: 1024px){
 	.main_trilogia{
-		margin-top: 4rem;
+		margin-top: 2rem;
 	}
 	.flyer_trilogia{
 		margin-top: 0;

@@ -1,11 +1,11 @@
 @import url(style.css);
 
 .main_index{
-    /* border: 1px solid orangered;*/
-    margin-top: 2rem;
+    /* border: 1px solid orangered; */
+    margin-top: 0;
 }
 .contenido-principal {
-    margin: 1rem;
+    margin: 1rem 0 3rem 0;
     padding: 1rem;
     justify-items: center;
     display: flex;
@@ -23,41 +23,48 @@
     align-content: center;
     align-items: center;
 }
+.audio{
+    margin: 0 0 2rem 0;
+}
 
 .card-body {
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: 25px;  
     font-style: double;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     padding: 1rem;
     color: rgb(250, 69, 24);
 }
 
 .flex-paragraph {
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: 20px;  
     font-style: double;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0 2rem 0;
     padding: 1rem;
     color: rgb(236, 146, 10);
     line-height: 1.6;
 }
-
+span > p{
+    margin: 0 0 1.5rem 0; 
+}
 .invite {
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: 25px;  
     font-style: double;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0 2rem 0;
     padding: 1rem;
     color: rgb(236, 173, 0);
 }
-
+.holis{
+    margin: 0 0 2rem 0;
+}
 .future {
     font-weight: absolute;
     font-family: 'Lucida Sans', Verdana, sans-serif;
@@ -67,4 +74,36 @@
     margin: 1rem;
     padding: 1rem;
     color: rgb(250, 69, 24);
-}  
+} 
+@media screen  and (max-width:648px){
+    .main_index{
+        /* border: 1px solid orangered; */
+        margin-top:1rem;
+    }
+    .contenido-principal > img{
+        width: 75%;
+        height: 75%;
+    }
+}
+/*------------ MEDIA QUERIES: medium ------------*/
+@media screen and (min-width:768px)  {
+    .main_index{
+        /* border: 1px solid orangered; */
+        margin-top: 6rem;
+    }
+    .contenido-principal > img{
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main_index{
+        /* border: 1px solid orangered; */
+        margin-top: 2rem;
+    }
+    .contenido-principal > img{
+        width: 40%;
+        height: 40%;
+    }
+}
