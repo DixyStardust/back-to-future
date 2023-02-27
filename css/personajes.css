@@ -1,60 +1,56 @@
 @import url(style.css);
 
 .main_personajes{
-  /* border:1px solid orange; */
-  margin-top: 4rem;
+  margin-top: 5.5rem;
+}
+.cast{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.main_vaf1{
-  margin-top: 3rem;
+.castList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0.5rem 1rem 0.5rem 1rem; 
 }
-
-.flex-paragraphcast {
-  font-weight: lighter;
-  font-family: sans-serif;
-  font-size: 15px;  
-  font-style: double;
-  text-align: justify;
+.castList > li{
+  list-style: none;
+  justify-items: center;
+}
+.castPersonaje{
   color:  rgb(255, 166, 1);
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  line-height: 1.6;
-}
-
-.cast {
   font-weight: bolder;
-  font-family: sans-serif;
-  font-size: 20px;  
+  font-family: inherit;
+  font-size:0.7rem;  
   font-style: double;
   text-align: center;
-  color: rgb(255, 166, 1);
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
+  
+}
+li > .castPersonaje{
+  text-decoration: none;
+  
+}
+
+.castPersonaje:hover{
+  color: rgb(250, 39, 24);
+  text-decoration: dashed;
+  cursor:pointer;
+  border: 1px solid rgb(250, 39, 24);
 }
 
 .personaje{
-  /* border: 1px solid blue; */
-  display:flex;
-  flex-direction:row;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .nombre_personaje{
-  /* border: 1px solid red; */
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 h3 {
@@ -74,47 +70,65 @@ h3 {
 }
 
 .img_actor{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   transition: .3s ease-in-out;
+  align-self: center;
 }
 .img_actor:hover{
     scale: 0.9;
 }
 
-  
 .text_biografia{
-  text-align: justify;
-  padding: 2rem 1rem 0 1rem;
+  margin: 1rem 1.5rem 1rem 1.5rem;
 }
-
-.reparto_actores{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1rem;
+.text_biografia > span > p{
+  text-align: justify;
+  font-weight: lighter;
+  font-family: inherit;
+  font-size: 1rem;  
+  font-style: double;
+  text-align: justify;
+  color:  rgb(255, 166, 1);
+} 
+span > p{
+  margin-bottom:1rem ;
+}
+p> strong{
+	margin:0 0.5rem 0 0;
 }
 
 .logo{
-  width: 500px;
+  width: 350px;
   height: auto;
+  align-self: center;
 }
 
 .logo_film{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: center;
 }
 
 .sinopsis {
   border:1px rgb(255, 166, 1);
-  padding: 20px;
   display:flex;
   flex-direction:column;
   text-align: left;
   justify-content: center
 }
-
+.sinopsisI{
+	margin:0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.sinopsisI > span > p{
+	text-align: justify;
+	font-weight: lighter;
+	font-family: inherit;
+	font-size: 1rem;  
+	font-style: double;
+	text-align: justify;
+	color:  rgb(255, 166, 1);
+}
 .sinopsis button {
   width: 150px;
   border: 3px solid #dddbdb;
@@ -133,12 +147,85 @@ h3 {
   flex-direction:row;
   justify-content: center;}
 
-.video > iframe{ 
-  width: 560px;
-  height: 315px;
+.video > iframe{
+  width:auto;
+  height: auto;
+  margin: 1.5rem;
 }
   
 .iframe{
-  width: 560px;
-  height: 315px;
+ 
+  width: 200px;
+  height: auto;
 }
+.list_sinopsis > p{
+	color: rgb(255, 166, 1);
+	font-size:1rem; 
+	text-align: left;
+	
+}
+/*------------------------------ MEDIA QUERIES ------------------------------ */
+@media screen and (min-width:480px) {
+  .castPersonaje{
+    font-size:1rem; 
+  }
+}
+/*------------ MEDIA QUERIES: medium ------------*/
+@media screen and (min-width:768px){
+	.text_biografia{
+		margin: 1.8rem;
+	}
+	.img_actor{
+	  width: 300px;
+	  height: 300px;
+	}
+	.main_personajes{
+		margin-top: 5.5rem;
+	}
+	.logo{
+		width: 450px;
+		height: auto;
+	}
+	.main_vaf1{
+		margin-top: 6rem;
+	}
+	.video > iframe{
+		width: 600px;
+		height: 400px;
+	}
+}
+/*------------ MEDIA QUERIES: medium ------------*/
+@media screen and (min-width: 1024px) {
+	.text_biografia{
+		margin: 2rem;
+	}
+	.castPersonaje{
+		font-size:1.5rem; 
+	}
+	.personaje{
+	  display:flex;
+	  flex-direction: row;
+	  justify-content: center;
+	}
+	.text_biografia{
+		align-items: center;
+	}
+	.text_biografia > span > p{
+		font-size: 1rem;
+		margin: 1.6rem 0 1.6rem 0;
+	}
+	.main_personajes{
+		margin-top: 6rem;
+	}
+	.logo{
+		width: 550px;
+		height: auto;
+		margin-bottom: 2.2rem;
+	}
+	.main_vaf1{
+		margin-top: 6rem;
+	}
+	.video > iframe{
+		width: 600px;
+		height: 400px;
+	}
